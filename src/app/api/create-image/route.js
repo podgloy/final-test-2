@@ -1,3 +1,11 @@
+export const maxDuration = 25; // This function can run for a maximum of 5 seconds
+export const dynamic = 'force-dynamic';
+ 
+export function GET(request) {
+  return new Response('Vercel', {
+    status: 200,
+  });
+}
 import Replicate from "replicate";
 
 const replicate = new Replicate({
